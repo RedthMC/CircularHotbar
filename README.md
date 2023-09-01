@@ -1,6 +1,8 @@
 # Circular Hotbar
 a mod that turns hotbar into a circle
 
-https://github.com/RedthMC/CircularHotbar/blob/master/images/showcase.mp4
+<video width="320" height="240" controls>
+  <source src="images/showcase.mp4" type="video/mp4">
+</video>
 
 ![settings-page.png](images/settings-page.png)
