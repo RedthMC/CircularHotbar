@@ -14,6 +14,7 @@ import net.minecraft.client.renderer.entity.RenderItem;
 import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.client.GuiIngameForge;
 
 public class HotbarHud extends Hud {
     private static final transient Minecraft mc = Minecraft.getMinecraft();
@@ -35,6 +36,13 @@ public class HotbarHud extends Hud {
 
     public HotbarHud() {
         super(true);
+    }
+
+    @Override
+    protected boolean shouldShow() {
+        boolean b = super.shouldShow();
+        GuiIngameForge.renderHotbar = !b;
+        return b;
     }
 
     @Override
