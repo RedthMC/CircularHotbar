@@ -1,6 +1,6 @@
-# InvneotryOCHUD
-An inventory & ender chest display HUD built with OneConfig
+# Circular Hotbar
+a mod that turns hotbar into a circle
 
-![Invnetory and Ender Chest](images/inventory.png)
+[showcase.mp4](images/showcase.mp4)
 
-![Settings Page](images/settings-page.png)
+![settings-page.png](images/settings-page.png)
