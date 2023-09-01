@@ -39,8 +39,8 @@ public class HotbarHud extends Hud {
     }
 
     @Override
-    protected boolean shouldShow() {
-        boolean b = super.shouldShow();
+    public boolean isEnabled() {
+        boolean b = super.isEnabled();
         GuiIngameForge.renderHotbar = !b;
         return b;
     }
